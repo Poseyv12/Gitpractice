@@ -1,9 +1,46 @@
-.circle{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: rgb(128, 0, 0);
+body{
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          background-color: #004d7a;
+          height: 100vh;
+          color: #00bf72;
+}
+button {
+          background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          margin-top: 10px;
+          font-size: 16px;
+          border-radius: 5px;
+          cursor: pointer;
+          position: relative;
+          animation: animate-button 1s ease-in-out infinite;
+        }
+        
+ @keyframes animate-button {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.1);
+          }
+          100% {
+            transform: scale(1);
+          }
+}
+        
+input {
+          height: 20px;
+}
+
+label {
+          color: #fff;
+}
+
+h1 {
+          color:#fff
 }
