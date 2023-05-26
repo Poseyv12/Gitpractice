@@ -1,6 +1,6 @@
 
 
-let dayOfWeek = document.getElementById("nameInput").toLowerCase
+let dayOfWeek = document.getElementById("nameInput")
 
 function greet() {
           // console.log(dayOfWeek.value)
