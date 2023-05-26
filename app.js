@@ -4,7 +4,7 @@ let dayOfWeek = document.getElementById("nameInput")
 
 function greet() {
           // console.log(dayOfWeek.value)
-          switch (dayOfWeek.toLowercase.value) {
+          switch (dayOfWeek.toLowerCase.value) {
                     case "monday":
                               alert("Happy Monday! Wishing you a productive and fulfilling start to your week. Remember, each day is a new opportunity to make progress towards your goals and aspirations. Stay focused, stay positive, and take action towards what you want to achieve. Let's make this week great!");
                               break;
